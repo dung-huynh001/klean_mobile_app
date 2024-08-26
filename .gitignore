@@ -1,0 +1,101 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Bỏ qua các tệp và thư mục hệ thống hoặc của IDE không cần thiết
+.idea/
+.vscode/
+*.iml
+*.class
+*.pyc
+*.log
+*.swp
+.DS_Store
+.atom/
+.history
+.svn/
+migrate_working_dir/
+
+# Bỏ qua thư mục build của Flutter, Android và iOS
+build/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/.last_build_id
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+
+# Bỏ qua các tệp nhạy cảm và không cần thiết
+*.key
+*.jks
+*.p12
+local.properties
+
+# Bỏ qua các tệp tạm thời và tệp cache
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+.pub/
+.pub-cache/
+
+# Bỏ qua các tệp generated (thường từ build_runner)
+*.g.dart
+
+# Các tệp logs, symbolication, và obfuscation liên quan đến build Flutter
+app.*.symbols
+app.*.map.json
+*.log
+
+# MacOS build và các tệp liên quan
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# Bỏ qua các tệp cài đặt tạm thời của Xcode
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/xcuserdata/
+ios/.symlinks/
